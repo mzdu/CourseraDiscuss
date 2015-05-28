@@ -1,0 +1,19 @@
+{
+  "manifest_version": 2,
+  "name": "Coursera Discuss",
+  "description": "Help Coursera users' discussion during the process of learning.",
+  "version": "1.2",
+  
+  "browser_action": {
+      "default_icon": "icon.png",
+      "default_popup": "popup.html"
+  },
+
+  "permissions": [
+    "storage",
+    "activeTab",
+    "https://ajax.googleapis.com/"
+  ],
+
+  "author": "Mingzhe Du"
+}
